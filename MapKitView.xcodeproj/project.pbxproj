@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC133C3D28830D8400B4686B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC133C3C28830D8400B4686B /* ListViewController.swift */; };
 		AC94D1BA28829FCB00D89479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94D1B928829FCB00D89479 /* AppDelegate.swift */; };
 		AC94D1BC28829FCB00D89479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94D1BB28829FCB00D89479 /* SceneDelegate.swift */; };
-		AC94D1BE28829FCB00D89479 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94D1BD28829FCB00D89479 /* ViewController.swift */; };
+		AC94D1BE28829FCB00D89479 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94D1BD28829FCB00D89479 /* MapsViewController.swift */; };
 		AC94D1C128829FCB00D89479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94D1BF28829FCB00D89479 /* Main.storyboard */; };
 		AC94D1C428829FCB00D89479 /* MapKitView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC94D1C228829FCB00D89479 /* MapKitView.xcdatamodeld */; };
 		AC94D1C628829FD100D89479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC94D1C528829FD100D89479 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC133C3C28830D8400B4686B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AC94D1B628829FCB00D89479 /* MapKitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94D1B928829FCB00D89479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC94D1BB28829FCB00D89479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC94D1BD28829FCB00D89479 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC94D1BD28829FCB00D89479 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		AC94D1C028829FCB00D89479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC94D1C328829FCB00D89479 /* MapKitView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapKitView.xcdatamodel; sourceTree = "<group>"; };
 		AC94D1C528829FD100D89479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			children = (
 				AC94D1B928829FCB00D89479 /* AppDelegate.swift */,
 				AC94D1BB28829FCB00D89479 /* SceneDelegate.swift */,
-				AC94D1BD28829FCB00D89479 /* ViewController.swift */,
+				AC94D1BD28829FCB00D89479 /* MapsViewController.swift */,
+				AC133C3C28830D8400B4686B /* ListViewController.swift */,
 				AC94D1BF28829FCB00D89479 /* Main.storyboard */,
 				AC94D1C528829FD100D89479 /* Assets.xcassets */,
 				AC94D1C728829FD100D89479 /* LaunchScreen.storyboard */,
@@ -142,8 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC94D1C428829FCB00D89479 /* MapKitView.xcdatamodeld in Sources */,
-				AC94D1BE28829FCB00D89479 /* ViewController.swift in Sources */,
+				AC94D1BE28829FCB00D89479 /* MapsViewController.swift in Sources */,
 				AC94D1BA28829FCB00D89479 /* AppDelegate.swift in Sources */,
+				AC133C3D28830D8400B4686B /* ListViewController.swift in Sources */,
 				AC94D1BC28829FCB00D89479 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
